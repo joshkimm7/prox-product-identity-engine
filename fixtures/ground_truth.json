@@ -1,0 +1,452 @@
+[
+  {
+    "listing_id": "L001",
+    "expected": "C101",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L002",
+    "expected": "C102",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L003",
+    "expected": "C103",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L004",
+    "expected": "C104",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L005",
+    "expected": "C105",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L006",
+    "expected": "C106",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L007",
+    "expected": "C107",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L008",
+    "expected": "C108",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L009",
+    "expected": "C109",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L010",
+    "expected": "C110",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L011",
+    "expected": "C111",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L012",
+    "expected": "C112",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L013",
+    "expected": "C113",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L014",
+    "expected": "C114",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L015",
+    "expected": "C115",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L016",
+    "expected": "C116",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L017",
+    "expected": "C117",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L018",
+    "expected": "C118",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L019",
+    "expected": "C119",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L020",
+    "expected": "C120",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L021",
+    "expected": "C121",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L022",
+    "expected": "C122",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L023",
+    "expected": "C123",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L024",
+    "expected": "C124",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L025",
+    "expected": "C125",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L026",
+    "expected": "C126",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L027",
+    "expected": "C127",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L028",
+    "expected": "C128",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L029",
+    "expected": "C129",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L030",
+    "expected": "C130",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L031",
+    "expected": "C131",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L032",
+    "expected": "C132",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L033",
+    "expected": "C133",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L034",
+    "expected": "C134",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L035",
+    "expected": "C135",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L036",
+    "expected": "C136",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L037",
+    "expected": "C137",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L038",
+    "expected": "C138",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L039",
+    "expected": "C139",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L040",
+    "expected": "C140",
+    "note": "straightforward control"
+  },
+  {
+    "listing_id": "L041",
+    "expected": "C101",
+    "note": "canned tuna, packaging alias"
+  },
+  {
+    "listing_id": "L042",
+    "expected": "C102",
+    "note": "raw tuna versus canned tuna"
+  },
+  {
+    "listing_id": "L043",
+    "expected": "C103",
+    "note": "chicken meat versus broth"
+  },
+  {
+    "listing_id": "L044",
+    "expected": "C104",
+    "note": "broth versus meat"
+  },
+  {
+    "listing_id": "L045",
+    "expected": "C105",
+    "note": "fresh salmon versus tinned"
+  },
+  {
+    "listing_id": "L046",
+    "expected": "C106",
+    "note": "tinned synonym"
+  },
+  {
+    "listing_id": "L047",
+    "expected": "C107",
+    "note": "gallon equals 128 fluid ounces"
+  },
+  {
+    "listing_id": "L048",
+    "expected": "C108",
+    "note": "same title, distinct brand"
+  },
+  {
+    "listing_id": "L049",
+    "expected": "C109",
+    "note": "organic preference preserved"
+  },
+  {
+    "listing_id": "L050",
+    "expected": "C110",
+    "note": "nonorganic versus organic"
+  },
+  {
+    "listing_id": "L051",
+    "expected": "C111",
+    "note": "pet food versus human food"
+  },
+  {
+    "listing_id": "L052",
+    "expected": "C112",
+    "note": "meaningful flavor modifiers"
+  },
+  {
+    "listing_id": "L053",
+    "expected": "C113",
+    "note": "oat milk versus dairy milk"
+  },
+  {
+    "listing_id": "L054",
+    "expected": "C114",
+    "note": "organic dairy identity"
+  },
+  {
+    "listing_id": "L055",
+    "expected": "C115",
+    "note": "count normalization"
+  },
+  {
+    "listing_id": "L056",
+    "expected": "C116",
+    "note": "organic eggs"
+  },
+  {
+    "listing_id": "L057",
+    "expected": "C117",
+    "note": "multipack equals sixteen ounces"
+  },
+  {
+    "listing_id": "L058",
+    "expected": "C118",
+    "note": "texture changes identity"
+  },
+  {
+    "listing_id": "L059",
+    "expected": "C119",
+    "note": "flavor modifier"
+  },
+  {
+    "listing_id": "L060",
+    "expected": "C120",
+    "note": "pounds to ounces"
+  },
+  {
+    "listing_id": "L061",
+    "expected": "C121",
+    "note": "block versus shredded"
+  },
+  {
+    "listing_id": "L062",
+    "expected": "C122",
+    "note": "shredded versus block"
+  },
+  {
+    "listing_id": "L063",
+    "expected": "C123",
+    "note": "ground beef versus broth"
+  },
+  {
+    "listing_id": "L064",
+    "expected": "C124",
+    "note": "fluid broth versus meat"
+  },
+  {
+    "listing_id": "L065",
+    "expected": "C125",
+    "note": "organic produce"
+  },
+  {
+    "listing_id": "L066",
+    "expected": "C127",
+    "note": "frozen versus fresh"
+  },
+  {
+    "listing_id": "L067",
+    "expected": "C135",
+    "note": "fluid volume not weight"
+  },
+  {
+    "listing_id": "L068",
+    "expected": "C140",
+    "note": "frozen yogurt versus ice cream"
+  },
+  {
+    "listing_id": "L069",
+    "expected": "C101",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L070",
+    "expected": "C102",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L071",
+    "expected": "C103",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L072",
+    "expected": "C104",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L073",
+    "expected": "C105",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L074",
+    "expected": "C106",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L075",
+    "expected": "C107",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L076",
+    "expected": "C108",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L077",
+    "expected": "C109",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L078",
+    "expected": "C110",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L079",
+    "expected": "C111",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L080",
+    "expected": "C112",
+    "note": "cross-retailer duplicate identity"
+  },
+  {
+    "listing_id": "L081",
+    "expected": "ABSTAIN",
+    "note": "missing brand, size, and form"
+  },
+  {
+    "listing_id": "L082",
+    "expected": "ABSTAIN",
+    "note": "identical title across brands"
+  },
+  {
+    "listing_id": "L083",
+    "expected": "ABSTAIN",
+    "note": "zero size and organic ambiguity"
+  },
+  {
+    "listing_id": "L084",
+    "expected": "ABSTAIN",
+    "note": "unrelated pet product token overlap"
+  },
+  {
+    "listing_id": "L085",
+    "expected": "ABSTAIN",
+    "note": "fresh versus canned ambiguity"
+  },
+  {
+    "listing_id": "L086",
+    "expected": "ABSTAIN",
+    "note": "olive versus canola ambiguity"
+  },
+  {
+    "listing_id": "L087",
+    "expected": "ABSTAIN",
+    "note": "ice cream versus frozen yogurt ambiguity"
+  },
+  {
+    "listing_id": "L088",
+    "expected": "ABSTAIN",
+    "note": "creamy versus crunchy ambiguity"
+  },
+  {
+    "listing_id": "L089",
+    "expected": "ABSTAIN",
+    "note": "fresh versus frozen ambiguity"
+  },
+  {
+    "listing_id": "L090",
+    "expected": "ABSTAIN",
+    "note": "white versus wheat ambiguity"
+  }
+]

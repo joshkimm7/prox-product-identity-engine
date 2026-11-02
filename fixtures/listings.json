@@ -1,0 +1,812 @@
+[
+  {
+    "listing_id": "L001",
+    "retailer": "FreshTown",
+    "raw_name": "Ocean Catch Solid White Tuna",
+    "brand_raw": "Ocean Catch",
+    "size_raw": "5 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 199
+  },
+  {
+    "listing_id": "L002",
+    "retailer": "ValueMart",
+    "raw_name": "Atlantic Fresh Tuna Steak",
+    "brand_raw": "Atlantic Fresh",
+    "size_raw": "16 oz",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 236
+  },
+  {
+    "listing_id": "L003",
+    "retailer": "MarketSquare",
+    "raw_name": "Farmhouse Chicken Breast",
+    "brand_raw": "Farmhouse",
+    "size_raw": "16 oz",
+    "retailer_category": "MEAT",
+    "price_cents": 273
+  },
+  {
+    "listing_id": "L004",
+    "retailer": "FreshTown",
+    "raw_name": "Heritage Chicken Broth",
+    "brand_raw": "Heritage",
+    "size_raw": "32 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 310
+  },
+  {
+    "listing_id": "L005",
+    "retailer": "ValueMart",
+    "raw_name": "Fresh Salmon Fillet",
+    "brand_raw": "Harbor Table",
+    "size_raw": "16 oz",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 347
+  },
+  {
+    "listing_id": "L006",
+    "retailer": "MarketSquare",
+    "raw_name": "Tinned Pink Salmon",
+    "brand_raw": "Harbor Table",
+    "size_raw": "14.75 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 384
+  },
+  {
+    "listing_id": "L007",
+    "retailer": "FreshTown",
+    "raw_name": "Whole Milk",
+    "brand_raw": "Meadow Vale",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 421
+  },
+  {
+    "listing_id": "L008",
+    "retailer": "ValueMart",
+    "raw_name": "Whole Milk",
+    "brand_raw": "Dairy Best",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 458
+  },
+  {
+    "listing_id": "L009",
+    "retailer": "MarketSquare",
+    "raw_name": "Organic Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 495
+  },
+  {
+    "listing_id": "L010",
+    "retailer": "FreshTown",
+    "raw_name": "Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 532
+  },
+  {
+    "listing_id": "L011",
+    "retailer": "ValueMart",
+    "raw_name": "Chicken Flavored Dog Food",
+    "brand_raw": "Happy Hound",
+    "size_raw": "192 oz",
+    "retailer_category": "PET",
+    "price_cents": 569
+  },
+  {
+    "listing_id": "L012",
+    "retailer": "MarketSquare",
+    "raw_name": "Honey Nut Oat Cereal",
+    "brand_raw": "Morning Mill",
+    "size_raw": "18.8 oz",
+    "retailer_category": "BREAKFAST",
+    "price_cents": 606
+  },
+  {
+    "listing_id": "L013",
+    "retailer": "FreshTown",
+    "raw_name": "Original Oat Milk",
+    "brand_raw": "Oat Valley",
+    "size_raw": "64 fl oz",
+    "retailer_category": "DAIRY_ALT",
+    "price_cents": 643
+  },
+  {
+    "listing_id": "L014",
+    "retailer": "ValueMart",
+    "raw_name": "Organic Whole Milk",
+    "brand_raw": "Meadow Vale",
+    "size_raw": "64 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 680
+  },
+  {
+    "listing_id": "L015",
+    "retailer": "MarketSquare",
+    "raw_name": "Large Brown Eggs",
+    "brand_raw": "Sunny Farm",
+    "size_raw": "12 ct",
+    "retailer_category": "DAIRY",
+    "price_cents": 717
+  },
+  {
+    "listing_id": "L016",
+    "retailer": "FreshTown",
+    "raw_name": "Organic Large Brown Eggs",
+    "brand_raw": "Sunny Farm",
+    "size_raw": "12 ct",
+    "retailer_category": "DAIRY",
+    "price_cents": 754
+  },
+  {
+    "listing_id": "L017",
+    "retailer": "ValueMart",
+    "raw_name": "Creamy Peanut Butter",
+    "brand_raw": "Nut House",
+    "size_raw": "16 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 791
+  },
+  {
+    "listing_id": "L018",
+    "retailer": "MarketSquare",
+    "raw_name": "Crunchy Peanut Butter",
+    "brand_raw": "Nut House",
+    "size_raw": "16 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 828
+  },
+  {
+    "listing_id": "L019",
+    "retailer": "FreshTown",
+    "raw_name": "Strawberry Yogurt",
+    "brand_raw": "Cultured Farms",
+    "size_raw": "6 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 865
+  },
+  {
+    "listing_id": "L020",
+    "retailer": "ValueMart",
+    "raw_name": "Plain Greek Yogurt",
+    "brand_raw": "Cultured Farms",
+    "size_raw": "32 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 902
+  },
+  {
+    "listing_id": "L021",
+    "retailer": "MarketSquare",
+    "raw_name": "Cheddar Cheese Block",
+    "brand_raw": "Dairy Best",
+    "size_raw": "8 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 939
+  },
+  {
+    "listing_id": "L022",
+    "retailer": "FreshTown",
+    "raw_name": "Shredded Cheddar Cheese",
+    "brand_raw": "Dairy Best",
+    "size_raw": "8 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 976
+  },
+  {
+    "listing_id": "L023",
+    "retailer": "ValueMart",
+    "raw_name": "Ground Beef 80 Percent Lean",
+    "brand_raw": "Farmhouse",
+    "size_raw": "16 oz",
+    "retailer_category": "MEAT",
+    "price_cents": 1013
+  },
+  {
+    "listing_id": "L024",
+    "retailer": "MarketSquare",
+    "raw_name": "Beef Broth",
+    "brand_raw": "Heritage",
+    "size_raw": "32 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1050
+  },
+  {
+    "listing_id": "L025",
+    "retailer": "FreshTown",
+    "raw_name": "Organic Gala Apples",
+    "brand_raw": "Green Field",
+    "size_raw": "48 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 1087
+  },
+  {
+    "listing_id": "L026",
+    "retailer": "ValueMart",
+    "raw_name": "Gala Apples",
+    "brand_raw": "Green Field",
+    "size_raw": "48 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 1124
+  },
+  {
+    "listing_id": "L027",
+    "retailer": "MarketSquare",
+    "raw_name": "Frozen Blueberries",
+    "brand_raw": "North Orchard",
+    "size_raw": "16 oz",
+    "retailer_category": "FROZEN",
+    "price_cents": 1161
+  },
+  {
+    "listing_id": "L028",
+    "retailer": "FreshTown",
+    "raw_name": "Fresh Blueberries",
+    "brand_raw": "North Orchard",
+    "size_raw": "6 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 1198
+  },
+  {
+    "listing_id": "L029",
+    "retailer": "ValueMart",
+    "raw_name": "Tomato Basil Pasta Sauce",
+    "brand_raw": "Old Kitchen",
+    "size_raw": "24 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1235
+  },
+  {
+    "listing_id": "L030",
+    "retailer": "MarketSquare",
+    "raw_name": "Diced Tomatoes",
+    "brand_raw": "Old Kitchen",
+    "size_raw": "14.5 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1272
+  },
+  {
+    "listing_id": "L031",
+    "retailer": "FreshTown",
+    "raw_name": "Spaghetti Pasta",
+    "brand_raw": "Old Kitchen",
+    "size_raw": "16 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1309
+  },
+  {
+    "listing_id": "L032",
+    "retailer": "ValueMart",
+    "raw_name": "Gluten Free Spaghetti",
+    "brand_raw": "Free Table",
+    "size_raw": "12 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1346
+  },
+  {
+    "listing_id": "L033",
+    "retailer": "MarketSquare",
+    "raw_name": "White Sandwich Bread",
+    "brand_raw": "Daily Loaf",
+    "size_raw": "20 oz",
+    "retailer_category": "BAKERY",
+    "price_cents": 1383
+  },
+  {
+    "listing_id": "L034",
+    "retailer": "FreshTown",
+    "raw_name": "Whole Wheat Sandwich Bread",
+    "brand_raw": "Daily Loaf",
+    "size_raw": "20 oz",
+    "retailer_category": "BAKERY",
+    "price_cents": 1420
+  },
+  {
+    "listing_id": "L035",
+    "retailer": "ValueMart",
+    "raw_name": "Extra Virgin Olive Oil",
+    "brand_raw": "Golden Grove",
+    "size_raw": "16.9 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1457
+  },
+  {
+    "listing_id": "L036",
+    "retailer": "MarketSquare",
+    "raw_name": "Canola Cooking Oil",
+    "brand_raw": "Golden Grove",
+    "size_raw": "48 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1494
+  },
+  {
+    "listing_id": "L037",
+    "retailer": "FreshTown",
+    "raw_name": "Sparkling Lemon Water",
+    "brand_raw": "Clear Spring",
+    "size_raw": "96 fl oz",
+    "retailer_category": "BEVERAGE",
+    "price_cents": 1531
+  },
+  {
+    "listing_id": "L038",
+    "retailer": "ValueMart",
+    "raw_name": "Still Spring Water",
+    "brand_raw": "Clear Spring",
+    "size_raw": "128 fl oz",
+    "retailer_category": "BEVERAGE",
+    "price_cents": 1568
+  },
+  {
+    "listing_id": "L039",
+    "retailer": "MarketSquare",
+    "raw_name": "Vanilla Ice Cream",
+    "brand_raw": "Cold Meadow",
+    "size_raw": "48 fl oz",
+    "retailer_category": "FROZEN",
+    "price_cents": 1605
+  },
+  {
+    "listing_id": "L040",
+    "retailer": "FreshTown",
+    "raw_name": "Vanilla Frozen Yogurt",
+    "brand_raw": "Cold Meadow",
+    "size_raw": "48 fl oz",
+    "retailer_category": "FROZEN",
+    "price_cents": 1642
+  },
+  {
+    "listing_id": "L041",
+    "retailer": "ValueMart",
+    "raw_name": "Ocean Catch White Tuna Can",
+    "brand_raw": "Ocean Catch Co.",
+    "size_raw": "5 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 249
+  },
+  {
+    "listing_id": "L042",
+    "retailer": "MarketSquare",
+    "raw_name": "Atlantic Fresh Raw Tuna Steak",
+    "brand_raw": "Atl Fresh",
+    "size_raw": "1 lb",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 290
+  },
+  {
+    "listing_id": "L043",
+    "retailer": "FreshTown",
+    "raw_name": "Farmhouse Boneless Chicken Breast",
+    "brand_raw": "Farmhouse",
+    "size_raw": "1 lb",
+    "retailer_category": "MEAT",
+    "price_cents": 331
+  },
+  {
+    "listing_id": "L044",
+    "retailer": "ValueMart",
+    "raw_name": "Heritage Shelf Stable Chicken Broth",
+    "brand_raw": "Heritage",
+    "size_raw": "32 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 372
+  },
+  {
+    "listing_id": "L045",
+    "retailer": "MarketSquare",
+    "raw_name": "Harbor Table Fresh Salmon Fillet",
+    "brand_raw": "Harbor Table",
+    "size_raw": "1 lb",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 413
+  },
+  {
+    "listing_id": "L046",
+    "retailer": "FreshTown",
+    "raw_name": "Harbor Table Canned Pink Salmon",
+    "brand_raw": "Harbor Table",
+    "size_raw": "14.75 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 454
+  },
+  {
+    "listing_id": "L047",
+    "retailer": "ValueMart",
+    "raw_name": "Meadow Vale Whole Milk Gallon",
+    "brand_raw": "Meadow Vale",
+    "size_raw": "1 gal",
+    "retailer_category": "DAIRY",
+    "price_cents": 495
+  },
+  {
+    "listing_id": "L048",
+    "retailer": "MarketSquare",
+    "raw_name": "Dairy Best Whole Milk 128 Fluid Ounces",
+    "brand_raw": "Dairy Best",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 536
+  },
+  {
+    "listing_id": "L049",
+    "retailer": "FreshTown",
+    "raw_name": "Green Field Organic Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 577
+  },
+  {
+    "listing_id": "L050",
+    "retailer": "ValueMart",
+    "raw_name": "Green Field Baby Spinach Regular",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 618
+  },
+  {
+    "listing_id": "L051",
+    "retailer": "MarketSquare",
+    "raw_name": "Happy Hound Chicken Dry Dog Food",
+    "brand_raw": "Happy Hound",
+    "size_raw": "12 lb",
+    "retailer_category": "PET",
+    "price_cents": 659
+  },
+  {
+    "listing_id": "L052",
+    "retailer": "FreshTown",
+    "raw_name": "Morning Mill Honey Nut Oat Cereal Family Size",
+    "brand_raw": "Morning Mill",
+    "size_raw": "18.8 oz",
+    "retailer_category": "BREAKFAST",
+    "price_cents": 700
+  },
+  {
+    "listing_id": "L053",
+    "retailer": "ValueMart",
+    "raw_name": "Oat Valley Original Oatmilk",
+    "brand_raw": "Oat Valley",
+    "size_raw": "64 fl oz",
+    "retailer_category": "DAIRY_ALT",
+    "price_cents": 741
+  },
+  {
+    "listing_id": "L054",
+    "retailer": "MarketSquare",
+    "raw_name": "Meadow Vale Organic Whole Milk",
+    "brand_raw": "Meadow Vale",
+    "size_raw": "64 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 782
+  },
+  {
+    "listing_id": "L055",
+    "retailer": "FreshTown",
+    "raw_name": "Sunny Farm Large Brown Eggs Dozen",
+    "brand_raw": "Sunny Farm",
+    "size_raw": "12 count",
+    "retailer_category": "DAIRY",
+    "price_cents": 823
+  },
+  {
+    "listing_id": "L056",
+    "retailer": "ValueMart",
+    "raw_name": "Sunny Farm Organic Brown Eggs",
+    "brand_raw": "Sunny Farm",
+    "size_raw": "12 ct",
+    "retailer_category": "DAIRY",
+    "price_cents": 864
+  },
+  {
+    "listing_id": "L057",
+    "retailer": "MarketSquare",
+    "raw_name": "Nut House Creamy PB",
+    "brand_raw": "Nut House",
+    "size_raw": "2 x 8 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 905
+  },
+  {
+    "listing_id": "L058",
+    "retailer": "FreshTown",
+    "raw_name": "Nut House Crunchy Peanut Butter",
+    "brand_raw": "Nut House",
+    "size_raw": "16 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 946
+  },
+  {
+    "listing_id": "L059",
+    "retailer": "ValueMart",
+    "raw_name": "Cultured Farms Strawberry Yogurt Cup",
+    "brand_raw": "Cultured Farms",
+    "size_raw": "6 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 987
+  },
+  {
+    "listing_id": "L060",
+    "retailer": "MarketSquare",
+    "raw_name": "Cultured Farms Greek Yogurt Plain",
+    "brand_raw": "Cultured Farms",
+    "size_raw": "2 lb",
+    "retailer_category": "DAIRY",
+    "price_cents": 1028
+  },
+  {
+    "listing_id": "L061",
+    "retailer": "FreshTown",
+    "raw_name": "Dairy Best Cheddar Block",
+    "brand_raw": "Dairy Best",
+    "size_raw": "8 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 1069
+  },
+  {
+    "listing_id": "L062",
+    "retailer": "ValueMart",
+    "raw_name": "Dairy Best Shredded Cheddar",
+    "brand_raw": "Dairy Best",
+    "size_raw": "8 oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 1110
+  },
+  {
+    "listing_id": "L063",
+    "retailer": "MarketSquare",
+    "raw_name": "Farmhouse 80 Lean Ground Beef",
+    "brand_raw": "Farmhouse",
+    "size_raw": "1 lb",
+    "retailer_category": "MEAT",
+    "price_cents": 1151
+  },
+  {
+    "listing_id": "L064",
+    "retailer": "FreshTown",
+    "raw_name": "Heritage Beef Broth",
+    "brand_raw": "Heritage",
+    "size_raw": "32 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1192
+  },
+  {
+    "listing_id": "L065",
+    "retailer": "ValueMart",
+    "raw_name": "Green Field Organic Gala Apples",
+    "brand_raw": "Green Field",
+    "size_raw": "3 lb",
+    "retailer_category": "PRODUCE",
+    "price_cents": 1233
+  },
+  {
+    "listing_id": "L066",
+    "retailer": "MarketSquare",
+    "raw_name": "North Orchard Frozen Blueberries",
+    "brand_raw": "North Orchard",
+    "size_raw": "1 lb",
+    "retailer_category": "FROZEN",
+    "price_cents": 1274
+  },
+  {
+    "listing_id": "L067",
+    "retailer": "FreshTown",
+    "raw_name": "Golden Grove Extra Virgin Olive Oil",
+    "brand_raw": "Golden Grove",
+    "size_raw": "16.9 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 1315
+  },
+  {
+    "listing_id": "L068",
+    "retailer": "ValueMart",
+    "raw_name": "Cold Meadow Vanilla Frozen Yogurt",
+    "brand_raw": "Cold Meadow",
+    "size_raw": "48 fl oz",
+    "retailer_category": "FROZEN",
+    "price_cents": 1356
+  },
+  {
+    "listing_id": "L069",
+    "retailer": "MarketSquare",
+    "raw_name": "Ocean Catch Ocean Catch Solid White Tuna",
+    "brand_raw": "Ocean Catch",
+    "size_raw": "5 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 299
+  },
+  {
+    "listing_id": "L070",
+    "retailer": "FreshTown",
+    "raw_name": "Atlantic Fresh Atlantic Fresh Tuna Steak",
+    "brand_raw": "Atlantic Fresh",
+    "size_raw": "16 oz",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 328
+  },
+  {
+    "listing_id": "L071",
+    "retailer": "ValueMart",
+    "raw_name": "Farmhouse Farmhouse Chicken Breast",
+    "brand_raw": "Farmhouse",
+    "size_raw": "16 oz",
+    "retailer_category": "MEAT",
+    "price_cents": 357
+  },
+  {
+    "listing_id": "L072",
+    "retailer": "MarketSquare",
+    "raw_name": "Heritage Heritage Chicken Broth",
+    "brand_raw": "Heritage",
+    "size_raw": "32 fl oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 386
+  },
+  {
+    "listing_id": "L073",
+    "retailer": "FreshTown",
+    "raw_name": "Harbor Table Fresh Salmon Fillet",
+    "brand_raw": "Harbor Table",
+    "size_raw": "16 oz",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 415
+  },
+  {
+    "listing_id": "L074",
+    "retailer": "ValueMart",
+    "raw_name": "Harbor Table Tinned Pink Salmon",
+    "brand_raw": "Harbor Table",
+    "size_raw": "14.75 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 444
+  },
+  {
+    "listing_id": "L075",
+    "retailer": "MarketSquare",
+    "raw_name": "Meadow Vale Whole Milk",
+    "brand_raw": "Meadow Vale",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 473
+  },
+  {
+    "listing_id": "L076",
+    "retailer": "FreshTown",
+    "raw_name": "Dairy Best Whole Milk",
+    "brand_raw": "Dairy Best",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 502
+  },
+  {
+    "listing_id": "L077",
+    "retailer": "ValueMart",
+    "raw_name": "Green Field Organic Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 531
+  },
+  {
+    "listing_id": "L078",
+    "retailer": "MarketSquare",
+    "raw_name": "Green Field Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "5 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 560
+  },
+  {
+    "listing_id": "L079",
+    "retailer": "FreshTown",
+    "raw_name": "Happy Hound Chicken Flavored Dog Food",
+    "brand_raw": "Happy Hound",
+    "size_raw": "192 oz",
+    "retailer_category": "PET",
+    "price_cents": 589
+  },
+  {
+    "listing_id": "L080",
+    "retailer": "ValueMart",
+    "raw_name": "Morning Mill Honey Nut Oat Cereal",
+    "brand_raw": "Morning Mill",
+    "size_raw": "18.8 oz",
+    "retailer_category": "BREAKFAST",
+    "price_cents": 618
+  },
+  {
+    "listing_id": "L081",
+    "retailer": "FreshTown",
+    "raw_name": "Tuna",
+    "brand_raw": "",
+    "size_raw": "",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 499
+  },
+  {
+    "listing_id": "L082",
+    "retailer": "ValueMart",
+    "raw_name": "Whole Milk",
+    "brand_raw": "",
+    "size_raw": "128 fl oz",
+    "retailer_category": "DAIRY",
+    "price_cents": 530
+  },
+  {
+    "listing_id": "L083",
+    "retailer": "MarketSquare",
+    "raw_name": "Baby Spinach",
+    "brand_raw": "Green Field",
+    "size_raw": "0 oz",
+    "retailer_category": "PRODUCE",
+    "price_cents": 561
+  },
+  {
+    "listing_id": "L084",
+    "retailer": "FreshTown",
+    "raw_name": "Chicken Dinner",
+    "brand_raw": "Mystery Brand",
+    "size_raw": "12 oz",
+    "retailer_category": "PET",
+    "price_cents": 592
+  },
+  {
+    "listing_id": "L085",
+    "retailer": "ValueMart",
+    "raw_name": "Salmon",
+    "brand_raw": "Harbor Table",
+    "size_raw": "",
+    "retailer_category": "SEAFOOD",
+    "price_cents": 623
+  },
+  {
+    "listing_id": "L086",
+    "retailer": "MarketSquare",
+    "raw_name": "Cooking Oil",
+    "brand_raw": "Golden Grove",
+    "size_raw": "",
+    "retailer_category": "PANTRY",
+    "price_cents": 654
+  },
+  {
+    "listing_id": "L087",
+    "retailer": "FreshTown",
+    "raw_name": "Vanilla Frozen Dessert",
+    "brand_raw": "Cold Meadow",
+    "size_raw": "48 fl oz",
+    "retailer_category": "FROZEN",
+    "price_cents": 685
+  },
+  {
+    "listing_id": "L088",
+    "retailer": "ValueMart",
+    "raw_name": "Peanut Butter",
+    "brand_raw": "Nut House",
+    "size_raw": "16 oz",
+    "retailer_category": "PANTRY",
+    "price_cents": 716
+  },
+  {
+    "listing_id": "L089",
+    "retailer": "MarketSquare",
+    "raw_name": "Blueberries",
+    "brand_raw": "North Orchard",
+    "size_raw": "",
+    "retailer_category": "PRODUCE",
+    "price_cents": 747
+  },
+  {
+    "listing_id": "L090",
+    "retailer": "FreshTown",
+    "raw_name": "Sandwich Bread",
+    "brand_raw": "Daily Loaf",
+    "size_raw": "20 oz",
+    "retailer_category": "BAKERY",
+    "price_cents": 778
+  }
+]
