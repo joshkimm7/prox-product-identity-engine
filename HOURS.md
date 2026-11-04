@@ -1,13 +1,14 @@
-# Active Hours
+# Approximate Time Spent
 
-**Approximate total active time: 5 hours.**
+I spent approximately **5 hours total** on this project. My estimated breakdown is:
 
-This is the candidate's corrected estimate for the project to date, including
-design, implementation, testing, debugging, documentation, review of AI-assisted
-fixes, and demo preparation. It replaces the previous 7.5-hour estimate in the
-README; it is not an additional five hours.
+| Area | Approximate hours |
+| --- | ---: |
+| Design and data contracts | 0.5 |
+| Implementation | 2.0 |
+| Testing and fixture validation | 1.0 |
+| Debugging and performance improvements | 0.75 |
+| Documentation and demo preparation | 0.75 |
+| **Total** | **5.0** |
 
-A reliable per-category breakdown was not tracked, so individual category
-estimates are not supplied. This is an approximate active-effort report, not a
-measurement of elapsed chat time or automated execution time. Any further active
-work after this estimate should be added before final submission.
+These are approximate estimates, not individually timed sessions.

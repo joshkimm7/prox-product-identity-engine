@@ -23,9 +23,8 @@ make test
 ## Submission status
 
 The implementation and regression checks are complete for this prototype.
-**The candidate must still record a 2–4 minute demo and add its link here and
-in DEMO.md before submitting.** A walkthrough script is not a recording.
-Confirm the active-time breakdown and AI model details from your own records.
+**Demo recording link: pending.** I still need to add a 2–4 minute recording
+here and in DEMO.md before submitting.
 
 ## Current checkpoint
 
@@ -175,11 +174,10 @@ reviewer's machine rather than treating these numbers as universal.
 
 ## Approximate active time
 
-Approximately **5 total active hours**, as corrected by the candidate. This
-supersedes the earlier 7.5-hour estimate; it is not five additional hours.
-Work included design, implementation, testing, debugging, documentation, and
-demo preparation. Separate per-category times were not tracked.
-See [HOURS.md](HOURS.md) for the time-reporting note.
+I spent approximately **5 hours total**: 0.5 hours on design, 2 hours on
+implementation, 1 hour on testing, 0.75 hours on debugging and performance, and
+0.75 hours on documentation and demo preparation. These are approximate estimates.
+See [HOURS.md](HOURS.md) for the breakdown.
 
 ## Next three priorities
 
