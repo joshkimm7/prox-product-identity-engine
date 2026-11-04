@@ -53,6 +53,9 @@ def _is_number(value: str) -> bool:
 
 
 def normalize_size(value: str) -> NormalizedSize:
+    # Validate signs before punctuation normalization can erase them.
+    if re.search(r"[-−–]\s*\d", unicodedata.normalize("NFKC", value)):
+        return NormalizedSize(None, None, "unknown", False, "NON_POSITIVE_SIZE")
     text = normalize_text(value)
     if not text:
         return NormalizedSize(None, None, "unknown", False, "MISSING_SIZE")
@@ -111,7 +114,8 @@ def _convert(value: float, unit: str) -> NormalizedSize:
 
 def normalize_product(name: str, brand: str, size: str) -> NormalizedProduct:
     normalized_name = normalize_text(name)
-    organic = True if "organic" in normalized_name.split() else None
+    organic = (False if any(term in normalized_name for term in ("nonorganic", "non organic", "regular"))
+               else True if "organic" in normalized_name.split() else None)
     return NormalizedProduct(
         tokens=tokenize(name),
         brand=normalize_brand(brand),

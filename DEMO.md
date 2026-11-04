@@ -1,5 +1,7 @@
 # Demo Plan
 
+Recording link: **PENDING — candidate must record and add before submission.**
+
 Target length: approximately 3 minutes.
 
 ## 0:00–0:25 — Problem and architecture
@@ -11,9 +13,8 @@ Explain that retailer titles are messy and unsafe forced matches hurt search and
 Run:
 
 ```bash
-uv sync --extra dev
-uv run python scripts/generate_fixtures.py
-uv run pytest -q
+make test
+make start
 ```
 
 Point out 40 canonical products, 90 listings, three retailers, and passing tests.
@@ -24,7 +25,7 @@ Open `http://127.0.0.1:8000/docs`. Use `GET /listings/L041/match` to show an exp
 
 ## 1:35–2:05 — Search and category safety
 
-Call `GET /search?q=chicken%20breast`. Show that chicken broth and dog food are excluded and that score components are visible. Call `POST /match` with `upstream_status: timeout` and show that the known canonical category remains intact.
+Call `GET /search?q=chicken%20breast`. Show that chicken broth and dog food are excluded and that score components are visible. Call `POST /match` with `upstream_category: SEAFOOD` for canned tuna to demonstrate correction to PANTRY and a review flag; repeat with `upstream_status: timeout` and show that the known canonical category remains intact.
 
 ## 2:05–2:35 — Measured quality
 

@@ -3,15 +3,35 @@ from __future__ import annotations
 from difflib import SequenceMatcher
 
 from src.models import CandidateScore, CanonicalProduct, MatchResult, RetailerListing
-from src.normalization import normalize_product
+from src.normalization import normalize_product, tokenize
+from collections import defaultdict
 
 
-INCOMPATIBLE_FORMS = {
-    frozenset({"canned", "fresh"}),
-    frozenset({"broth", "fresh"}),
-    frozenset({"dry pet food", "fresh"}),
-    frozenset({"dry pet food", "canned"}),
-}
+# Explicit modifiers are identity evidence, not optional lexical overlap.
+MODIFIER_GROUPS = (
+    {"fresh", "canned", "frozen", "broth"},
+    {"strawberry", "blueberry", "vanilla", "chocolate", "plain"},
+    {"creamy", "crunchy"}, {"block", "shredded"},
+)
+
+
+def conflicts(source, product):
+    words = set(source.tokens)
+    target = set(tokenize(f"{product.name} {product.form}"))
+    reasons = []
+    if not source.size.valid:
+        reasons.append("UNTRUSTED_SIZE")
+    if source.organic is not None and source.organic != product.organic:
+        reasons.append("ORGANIC_CONFLICT")
+    if bool(words & {"dog", "cat", "pet"}) != (product.category == "PET"):
+        reasons.append("PET_HUMAN_CONFLICT")
+    for group in MODIFIER_GROUPS:
+        left, right = words & group, target & group
+        if left and right and left != right:
+            reasons.append("MODIFIER_CONFLICT")
+    if "milk" in words and "milk" in target and (("oat" in words) != ("oat" in target)):
+        reasons.append("TYPE_CONFLICT")
+    return reasons
 
 
 class ProductMatcher:
@@ -19,12 +39,50 @@ class ProductMatcher:
         self.catalog = catalog
         self.threshold = threshold
         self.ambiguity_margin = ambiguity_margin
+        self.signatures = defaultdict(list)
+        self.token_index = defaultdict(set)
+        self.by_id = {p.canonical_id: p for p in catalog}
+        for product in catalog:
+            for name in (product.name, f"{product.name} {product.form}"):
+                normalized = normalize_product(name, product.brand, f"{product.size_value} {product.size_unit}")
+                key = self._signature(normalized)
+                if product.canonical_id not in self.signatures[key]:
+                    self.signatures[key].append(product.canonical_id)
+            for token in tokenize(f"{product.name} {product.form}"):
+                self.token_index[token].add(product.canonical_id)
+
+    @staticmethod
+    def _signature(product):
+        return (tuple(sorted(set(product.tokens))), product.brand,
+                product.size.dimension, product.size.value)
+
 
     def match(self, listing: RetailerListing) -> MatchResult:
         normalized = normalize_product(listing.raw_name, listing.brand_raw, listing.size_raw)
-        candidates = [self._score(listing, product) for product in self.catalog]
+        exact_ids = self.signatures.get(self._signature(normalized), [])
+        # A signature lookup precedes lexical retrieval. Duplicate signatures
+        # remain ambiguous rather than silently selecting the first ID.
+        exact_ids = [cid for cid in exact_ids if not conflicts(normalized, self.by_id[cid])]
+        if len(exact_ids) == 1:
+            product = self.by_id[exact_ids[0]]
+            candidate = self._score(listing, product)
+            return MatchResult(listing.listing_id, product.canonical_id, product.name,
+                               product.category, normalized.size, "exact", 1.0,
+                               ["EXACT_SIGNATURE"], False, [candidate],
+                               round(listing.price_cents / normalized.size.value, 4), normalized.size.unit)
+        retrieved = set()
+        for token in normalized.tokens:
+            retrieved.update(self.token_index.get(token, set()))
+        # Unknown titles still receive three diagnostic alternatives.
+        pool = [self.by_id[cid] for cid in sorted(retrieved)] if retrieved else self.catalog
+        if len(pool) < 3:
+            pool += [product for product in self.catalog if product.canonical_id not in retrieved][:3 - len(pool)]
+        candidates = [self._score(listing, product) for product in pool]
         candidates.sort(key=lambda item: (-item.score, item.canonical_id))
         top = candidates[:3]
+        if not top:
+            return MatchResult(listing.listing_id, None, None, None, normalized.size,
+                               "abstain", 0.0, ["EMPTY_CATALOG"], True, [])
         best = top[0]
         margin = best.score - top[1].score if len(top) > 1 else best.score
 
@@ -38,21 +96,19 @@ class ProductMatcher:
             return self._abstain(listing, normalized.size, top, "INCOMPATIBLE_PRODUCT")
 
         product = next(item for item in self.catalog if item.canonical_id == best.canonical_id)
-        exact = all(
-            best.components[key] == 1.0
-            for key in ("name", "brand", "size", "category")
-        )
         return MatchResult(
             listing_id=listing.listing_id,
             canonical_id=product.canonical_id,
             canonical_name=product.name,
             assigned_category=product.category,
             normalized_size=normalized.size,
-            match_stage="exact" if exact else "similarity",
+            match_stage="similarity",
             confidence=round(best.score, 4),
             reason_codes=best.reason_codes,
             reviewer_flag=False,
             top_candidates=top,
+            price_per_unit_cents=round(listing.price_cents / normalized.size.value, 4),
+            price_unit=normalized.size.unit,
         )
 
     def _score(self, listing: RetailerListing, product: CanonicalProduct) -> CandidateScore:
@@ -74,7 +130,13 @@ class ProductMatcher:
         category_score = float(listing.retailer_category.upper() == product.category.upper())
         size_score = self._size_score(source.size, target.size)
 
-        reasons: list[str] = []
+        reasons = conflicts(source, product)
+        if source.size.valid and target.size.valid and (
+            source.size.dimension != target.size.dimension or size_score != 1.0
+        ):
+            reasons.append("SIZE_CONFLICT")
+        if reasons:
+            reasons.append("HARD_CONFLICT")
         if brand_score:
             reasons.append("BRAND_MATCH")
         if size_score == 1.0:

@@ -24,7 +24,6 @@ class SearchResult:
 
 INCOMPATIBLE_QUERY_TERMS = {
     "breast": {"broth", "pet", "dog", "cat"},
-    "milk": {"oat"},
     "fresh": {"canned", "broth"},
 }
 
@@ -106,6 +105,19 @@ def _search_records(
 
 
 def _is_incompatible(query_tokens: set[str], candidate_tokens: set[str]) -> bool:
+    if "milk" in query_tokens and "milk" not in candidate_tokens:
+        return True
+    if "breast" in query_tokens and "breast" not in candidate_tokens:
+        return True
+    if "milk" in query_tokens and "milk" in candidate_tokens:
+        if ("oat" in query_tokens) != ("oat" in candidate_tokens):
+            return True
+    if "organic" in query_tokens and "organic" not in candidate_tokens:
+        return True
+    # Attribute overlap alone is not a useful product fallback.
+    meaningful = query_tokens - {"organic", "fresh", "regular"}
+    if meaningful and not meaningful & candidate_tokens:
+        return True
     for query_term, blocked_terms in INCOMPATIBLE_QUERY_TERMS.items():
         if query_term in query_tokens and candidate_tokens & blocked_terms:
             return True

@@ -2,9 +2,9 @@
   "catalog_size": 40,
   "listing_size": 90,
   "repeated_searches": 100,
-  "initialization_ms": 151.1826,
-  "search_p50_ms": 0.8453,
-  "search_p95_ms": 0.8848,
-  "searches_per_second": 1183.42,
+  "initialization_ms": 13.1743,
+  "search_p50_ms": 0.5441,
+  "search_p95_ms": 0.6282,
+  "searches_per_second": 1793.53,
   "cache_policy": "Approved identity matches indexed once at startup; no query-result cache."
 }

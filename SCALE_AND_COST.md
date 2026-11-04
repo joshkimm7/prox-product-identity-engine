@@ -16,7 +16,7 @@ Prioritize review by estimated business impact, confidence margin, listing traff
 
 ## Performance and storage
 
-The local 40-product/90-listing prototype indexes approved identities in about 151 ms and measured search p50/p95 near 0.85/0.88 ms on the development machine. At scale, use a persistent inverted index and precomputed approved-match table rather than rebuilding in request handlers. Partition listing state by retailer and hash of listing ID; partition audit history by event date. Keep current decisions in hot storage and compress immutable history after 30 days.
+The local 40-product/90-listing prototype indexes approved identities in about 13 ms and measured search p50/p95 near 0.54/0.63 ms on the development machine. At scale, use a persistent inverted index and precomputed approved-match table rather than rebuilding in request handlers. Partition listing state by retailer and hash of listing ID; partition audit history by event date. Keep current decisions in hot storage and compress immutable history after 30 days.
 
 At roughly 2 KB per listing for normalized data, decision metadata, and index overhead, 10 million current listings require approximately 20 GB before replicas and database overhead. With history, indexes, backups, and two replicas, budget 100–150 GB. A weekly 10-million-record refresh averaging 50 records/second per worker is about 56 worker-hours; 20 workers finish in under three hours before queue overhead.
 
@@ -28,3 +28,8 @@ These are planning assumptions, not vendor quotes: $0.10 per compute-hour, $0.12
 
 Version fixtures, normalizers, aliases, thresholds, and scorer weights. Run every candidate release against the frozen labeled set plus retailer-specific shadow samples. Compare precision, recall, category errors, abstention, latency, and review volume. Deploy in shadow mode, then 5%, 25%, and 100% stages. Preserve the previous decision table and scorer image; rollback switches the read alias to the prior version without deleting new audit data. The first likely bottleneck is candidate retrieval/index update throughput, followed by human-review capacity—not the small deterministic reranker.
 
+
+Confidence calibration: hold out retailer-specific labels from threshold tuning;
+measure reliability by score bin and product family before enabling approvals.
+Require the precision target on this holdout, and route under-supported bins to
+review. Exact signatures are strong evidence, not probability estimates.

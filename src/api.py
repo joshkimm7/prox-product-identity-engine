@@ -39,6 +39,7 @@ def create_app(fixtures_dir: Path = Path("fixtures")) -> FastAPI:
         payload = result.to_dict()
         category = resolve_category(result.assigned_category, request.upstream_category, request.upstream_status)
         payload["category_decision"] = asdict(category)
+        payload["reviewer_flag"] = result.reviewer_flag or category.reviewer_flag
         payload["assigned_category"] = category.assigned_category if result.canonical_id else None
         return payload
 

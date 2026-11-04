@@ -70,6 +70,8 @@ class MatchResult:
     reason_codes: list[str]
     reviewer_flag: bool
     top_candidates: list[CandidateScore] = field(default_factory=list)
+    price_per_unit_cents: float | None = None
+    price_unit: str | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)

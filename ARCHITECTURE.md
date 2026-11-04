@@ -7,7 +7,9 @@ flowchart LR
     B --> N[Normalization]
     N --> U[Unit conversion]
     U --> E[Exact/signature comparison]
-    E --> C[Candidate scoring]
+    E -->|unique compatible signature| M
+    E -->|no unique signature| V[Token-index candidate retrieval]
+    V --> C[Candidate scoring]
     C --> G[Compatibility safeguards]
     G --> D{Confidence and margin}
     D -->|safe| M[Approved canonical match]

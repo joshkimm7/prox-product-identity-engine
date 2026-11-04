@@ -1,0 +1,1163 @@
+{
+  "total": 90,
+  "correct": 86,
+  "attempted_matches": 76,
+  "expected_matches": 80,
+  "correct_matches": 76,
+  "abstentions": 14,
+  "false_positives": 0,
+  "high_confidence_false_positives": 0,
+  "category_errors": 0,
+  "precision": 1.0,
+  "recall": 0.95,
+  "exact_id_accuracy": 0.9556,
+  "abstention_rate": 0.1556,
+  "high_confidence_false_positive_rate": 0.0,
+  "category_error_rate": 0.0,
+  "cases": [
+    {
+      "listing_id": "L001",
+      "expected": "C101",
+      "predicted": "C101",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L002",
+      "expected": "C102",
+      "predicted": "C102",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L003",
+      "expected": "C103",
+      "predicted": "C103",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L004",
+      "expected": "C104",
+      "predicted": "C104",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L005",
+      "expected": "C105",
+      "predicted": "C105",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L006",
+      "expected": "C106",
+      "predicted": "C106",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L007",
+      "expected": "C107",
+      "predicted": "C107",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L008",
+      "expected": "C108",
+      "predicted": "C108",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L009",
+      "expected": "C109",
+      "predicted": "C109",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L010",
+      "expected": "C110",
+      "predicted": "C110",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L011",
+      "expected": "C111",
+      "predicted": "C111",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L012",
+      "expected": "C112",
+      "predicted": "C112",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L013",
+      "expected": "C113",
+      "predicted": "C113",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L014",
+      "expected": "C114",
+      "predicted": "C114",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L015",
+      "expected": "C115",
+      "predicted": "C115",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L016",
+      "expected": "C116",
+      "predicted": "C116",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L017",
+      "expected": "C117",
+      "predicted": "C117",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L018",
+      "expected": "C118",
+      "predicted": "C118",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L019",
+      "expected": "C119",
+      "predicted": "C119",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L020",
+      "expected": "C120",
+      "predicted": "C120",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L021",
+      "expected": "C121",
+      "predicted": "C121",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L022",
+      "expected": "C122",
+      "predicted": "C122",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L023",
+      "expected": "C123",
+      "predicted": "C123",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L024",
+      "expected": "C124",
+      "predicted": "C124",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L025",
+      "expected": "C125",
+      "predicted": "C125",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L026",
+      "expected": "C126",
+      "predicted": "C126",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L027",
+      "expected": "C127",
+      "predicted": "C127",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L028",
+      "expected": "C128",
+      "predicted": "C128",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L029",
+      "expected": "C129",
+      "predicted": "C129",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L030",
+      "expected": "C130",
+      "predicted": "C130",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L031",
+      "expected": "C131",
+      "predicted": "C131",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L032",
+      "expected": "C132",
+      "predicted": "C132",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L033",
+      "expected": "C133",
+      "predicted": "C133",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L034",
+      "expected": "C134",
+      "predicted": "C134",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L035",
+      "expected": "C135",
+      "predicted": "C135",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L036",
+      "expected": "C136",
+      "predicted": "C136",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L037",
+      "expected": "C137",
+      "predicted": "C137",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L038",
+      "expected": "C138",
+      "predicted": "C138",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L039",
+      "expected": "C139",
+      "predicted": "C139",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L040",
+      "expected": "C140",
+      "predicted": "C140",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L041",
+      "expected": "C101",
+      "predicted": "C101",
+      "confidence": 0.9625,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L042",
+      "expected": "C102",
+      "predicted": "C102",
+      "confidence": 0.9333,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L043",
+      "expected": "C103",
+      "predicted": "C103",
+      "confidence": 0.9048,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L044",
+      "expected": "C104",
+      "predicted": "C104",
+      "confidence": 0.8794,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L045",
+      "expected": "C105",
+      "predicted": "C105",
+      "confidence": 0.8667,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L046",
+      "expected": "C106",
+      "predicted": "C106",
+      "confidence": 0.8571,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L047",
+      "expected": "C107",
+      "predicted": "C107",
+      "confidence": 0.8051,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L048",
+      "expected": "C108",
+      "predicted": "C108",
+      "confidence": 0.8727,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L049",
+      "expected": "C109",
+      "predicted": "C109",
+      "confidence": 0.8759,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L050",
+      "expected": "C110",
+      "predicted": "C110",
+      "confidence": 0.84,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L051",
+      "expected": "C111",
+      "predicted": "C111",
+      "confidence": 0.8057,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L052",
+      "expected": "C112",
+      "predicted": "C112",
+      "confidence": 0.8551,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L053",
+      "expected": "C113",
+      "predicted": "C113",
+      "confidence": 0.851,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L054",
+      "expected": "C114",
+      "predicted": "C114",
+      "confidence": 0.8618,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L055",
+      "expected": "C115",
+      "predicted": "ABSTAIN",
+      "confidence": 0.8618,
+      "correct": false,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L056",
+      "expected": "C116",
+      "predicted": "C116",
+      "confidence": 0.8441,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L057",
+      "expected": "C117",
+      "predicted": "C117",
+      "confidence": 0.7565,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L058",
+      "expected": "C118",
+      "predicted": "C118",
+      "confidence": 0.8847,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L059",
+      "expected": "C119",
+      "predicted": "C119",
+      "confidence": 0.8581,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L060",
+      "expected": "C120",
+      "predicted": "C120",
+      "confidence": 0.92,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L061",
+      "expected": "C121",
+      "predicted": "C121",
+      "confidence": 0.808,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L062",
+      "expected": "C122",
+      "predicted": "C122",
+      "confidence": 0.8169,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L063",
+      "expected": "C123",
+      "predicted": "ABSTAIN",
+      "confidence": 0.8286,
+      "correct": false,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L064",
+      "expected": "C124",
+      "predicted": "ABSTAIN",
+      "confidence": 0.8723,
+      "correct": false,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L065",
+      "expected": "C125",
+      "predicted": "C125",
+      "confidence": 0.8714,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L066",
+      "expected": "C127",
+      "predicted": "C127",
+      "confidence": 0.8526,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L067",
+      "expected": "C135",
+      "predicted": "C135",
+      "confidence": 0.875,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L068",
+      "expected": "C140",
+      "predicted": "C140",
+      "confidence": 0.8754,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L069",
+      "expected": "C101",
+      "predicted": "C101",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L070",
+      "expected": "C102",
+      "predicted": "C102",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L071",
+      "expected": "C103",
+      "predicted": "C103",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L072",
+      "expected": "C104",
+      "predicted": "C104",
+      "confidence": 1.0,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    {
+      "listing_id": "L073",
+      "expected": "C105",
+      "predicted": "C105",
+      "confidence": 0.8667,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L074",
+      "expected": "C106",
+      "predicted": "C106",
+      "confidence": 0.8571,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L075",
+      "expected": "C107",
+      "predicted": "C107",
+      "confidence": 0.8051,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L076",
+      "expected": "C108",
+      "predicted": "C108",
+      "confidence": 0.8105,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L077",
+      "expected": "C109",
+      "predicted": "C109",
+      "confidence": 0.8759,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L078",
+      "expected": "C110",
+      "predicted": "ABSTAIN",
+      "confidence": 0.856,
+      "correct": false,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L079",
+      "expected": "C111",
+      "predicted": "C111",
+      "confidence": 0.8667,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L080",
+      "expected": "C112",
+      "predicted": "C112",
+      "confidence": 0.8807,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "BRAND_MATCH",
+        "SIZE_MATCH",
+        "CATEGORY_MATCH"
+      ]
+    },
+    {
+      "listing_id": "L081",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.0625,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L082",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.6463,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L083",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.18,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "INVALID_SIZE"
+      ]
+    },
+    {
+      "listing_id": "L084",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.076,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L085",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.1387,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L086",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.1611,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L087",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.872,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L088",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.86,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    },
+    {
+      "listing_id": "L089",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.1647,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "listing_id": "L090",
+      "expected": "ABSTAIN",
+      "predicted": "ABSTAIN",
+      "confidence": 0.88,
+      "correct": true,
+      "high_confidence_false_positive": false,
+      "category_error": false,
+      "reason_codes": [
+        "AMBIGUOUS_TOP_CANDIDATES"
+      ]
+    }
+  ]
+}

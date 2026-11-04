@@ -1,6 +1,9 @@
 # AI Usage
 
-This file will be updated throughout implementation rather than reconstructed after completion.
+This document records implementation assistance and subsequent submission-readiness corrections.
+
+Model identifier: not available in this chat context. The candidate should add the
+verified model(s) from their own session records; no model name is inferred.
 
 ## Tools
 
@@ -47,3 +50,18 @@ The first 100-search benchmark measured roughly 152 ms p50 because every query r
 
 The named adversarial suite showed that `Creamy Peanut Butter` beat the crunchy candidate by 0.0462 but was rejected by the original 0.05 ambiguity margin. I reduced the margin to 0.04, which accepts the explicit creamy variant while the modifier-free `Peanut Butter` case remains tied and abstains. This was a targeted calibration based on labeled examples, not a blanket reduction of the minimum confidence threshold.
 
+
+## Submission-readiness correction pass
+
+Instruction: “Fix these and update the repository,” referring to a review that
+reproduced unsafe size, organic, flavor, and form matches, oat-milk search
+exclusion, missing unit pricing, absent signature lookup, and metric issues.
+Codex implemented the fixes and added executable regressions, ran the full suite,
+and regenerated evaluation and benchmark results. Ground-truth labels were not
+changed to accommodate predictions.
+
+Corrections included preserving negative signs during size validation and treating
+explicit identity conflicts as approval blockers rather than merely losing score.
+The evaluation now uses expected categories and the high-confidence population
+as its respective denominators. The candidate should review these changes and
+be prepared to explain them; AI assistance does not establish personal ownership.

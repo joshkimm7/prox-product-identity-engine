@@ -1,0 +1,112 @@
+[
+  {
+    "listing_id": "L001",
+    "canonical_id": "C101",
+    "canonical_name": "Ocean Catch Solid White Tuna",
+    "assigned_category": "PANTRY",
+    "normalized_size": {
+      "value": 5.0,
+      "unit": "oz",
+      "dimension": "weight",
+      "valid": true,
+      "reason": null
+    },
+    "match_stage": "exact",
+    "confidence": 1.0,
+    "reason_codes": [
+      "EXACT_SIGNATURE"
+    ],
+    "reviewer_flag": false,
+    "top_candidates": [
+      {
+        "canonical_id": "C101",
+        "canonical_name": "Ocean Catch Solid White Tuna",
+        "score": 0.9556,
+        "components": {
+          "name": 0.8889,
+          "brand": 1.0,
+          "size": 1.0,
+          "category": 1.0
+        },
+        "reason_codes": [
+          "BRAND_MATCH",
+          "SIZE_MATCH",
+          "CATEGORY_MATCH"
+        ]
+      }
+    ],
+    "price_per_unit_cents": 39.8,
+    "price_unit": "oz"
+  },
+  {
+    "listing_id": "L090",
+    "canonical_id": null,
+    "canonical_name": null,
+    "assigned_category": null,
+    "normalized_size": {
+      "value": 20.0,
+      "unit": "oz",
+      "dimension": "weight",
+      "valid": true,
+      "reason": null
+    },
+    "match_stage": "abstain",
+    "confidence": 0.88,
+    "reason_codes": [
+      "AMBIGUOUS_TOP_CANDIDATES"
+    ],
+    "reviewer_flag": true,
+    "top_candidates": [
+      {
+        "canonical_id": "C133",
+        "canonical_name": "White Sandwich Bread",
+        "score": 0.88,
+        "components": {
+          "name": 0.7,
+          "brand": 1.0,
+          "size": 1.0,
+          "category": 1.0
+        },
+        "reason_codes": [
+          "BRAND_MATCH",
+          "SIZE_MATCH",
+          "CATEGORY_MATCH"
+        ]
+      },
+      {
+        "canonical_id": "C134",
+        "canonical_name": "Whole Wheat Sandwich Bread",
+        "score": 0.8435,
+        "components": {
+          "name": 0.6087,
+          "brand": 1.0,
+          "size": 1.0,
+          "category": 1.0
+        },
+        "reason_codes": [
+          "BRAND_MATCH",
+          "SIZE_MATCH",
+          "CATEGORY_MATCH"
+        ]
+      },
+      {
+        "canonical_id": "C101",
+        "canonical_name": "Ocean Catch Solid White Tuna",
+        "score": 0.0327,
+        "components": {
+          "name": 0.3265,
+          "brand": 0.0,
+          "size": 0.0,
+          "category": 0.0
+        },
+        "reason_codes": [
+          "SIZE_CONFLICT",
+          "HARD_CONFLICT",
+          "SIZE_MISMATCH_OR_UNKNOWN"
+        ]
+      }
+    ],
+    "price_per_unit_cents": null,
+    "price_unit": null
+  }
+]

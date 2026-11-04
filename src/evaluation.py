@@ -82,7 +82,7 @@ def evaluate(
         category_error = bool(
             result.canonical_id
             and result.assigned_category
-            != catalog_categories.get(result.canonical_id)
+            != catalog_categories.get(expected.expected)
         )
         cases.append(
             EvaluationCase(
@@ -127,7 +127,10 @@ def evaluate(
         exact_id_accuracy=_safe_divide(sum(case.correct for case in cases), total),
         abstention_rate=_safe_divide(abstentions, total),
         high_confidence_false_positive_rate=_safe_divide(
-            high_confidence_false_positives, attempted
+            high_confidence_false_positives, sum(
+                case.predicted != ABSTAIN and case.confidence >= high_confidence_threshold
+                for case in cases
+            )
         ),
         category_error_rate=_safe_divide(category_errors, attempted),
         cases=cases,
