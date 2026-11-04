@@ -175,14 +175,11 @@ reviewer's machine rather than treating these numbers as universal.
 
 ## Approximate active time
 
-- Design and data contracts: 0.75 hours
-- Implementation: 3.25 hours
-- Testing and fixture authoring: 1.5 hours
-- Debugging and performance work: 1.0 hour
-- Documentation: 1.0 hour
-- Total: approximately 7.5 focused hours
-
-Update these figures before submission if additional active work changes them.
+Approximately **5 total active hours**, as corrected by the candidate. This
+supersedes the earlier 7.5-hour estimate; it is not five additional hours.
+Work included design, implementation, testing, debugging, documentation, and
+demo preparation. Separate per-category times were not tracked.
+See [HOURS.md](HOURS.md) for the time-reporting note.
 
 ## Next three priorities
 
